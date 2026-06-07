@@ -21,7 +21,7 @@ critical constraints of **AWS Learner Lab** that stock AI assistants don't know 
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/aws-agent-skills.git
+git clone https://github.com/akjalbani/aws-agent-skills.git
 ```
 
 ### 2. Copy skills to your AI assistant
