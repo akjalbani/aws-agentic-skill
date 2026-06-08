@@ -45,7 +45,17 @@ cp -r aws-agent-skills/skills/* ~/.claude/skills/
 
 > ⚠️ Copy the folders **inside** `skills/` (e.g., `aws-lambda/`), NOT the `skills/` folder itself.
 
-### 3. Start coding
+### 3. Connect to your Learner Lab
+Every session, refresh your credentials:
+- Start your lab → wait for the green dot
+- Click AWS Details → Show next to AWS CLI
+- Copy the three lines into ~/.aws/credentials
+- Run aws configure set region us-east-1
+- Verify: aws sts get-caller-identity
+
+You should see LabRole in the ARN — you're connected.
+
+### 4. Start coding
 
 Just ask naturally:
 
