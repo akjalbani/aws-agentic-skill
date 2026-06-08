@@ -18,6 +18,11 @@ critical constraints of **AWS Learner Lab** that stock AI assistants don't know 
 
 ## 🚀 Quick Start
 
+## Installation Prerequisites
+- Node.js (LTS)
+- Claude Code: npm install -g @anthropic-ai/claude-code
+- AWS CLI
+
 ### 1. Clone this repo
 
 ```bash
